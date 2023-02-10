@@ -12,6 +12,11 @@ $ npm install express --save
 ```sh
 $ npm install nodemon --save
 ```
+[jest](https://www.npmjs.com/package/jest)
+```sh
+$ npm install jest --save-dev
+```
+
 ### Run
 ```
 $ nodemon app.js
