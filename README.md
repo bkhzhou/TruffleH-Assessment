@@ -60,6 +60,17 @@ localhost:3000/items
 ```
 ![image](https://user-images.githubusercontent.com/79166987/218016843-2837dc90-07de-4af6-915f-a051925ca9ba.png)
 
+## Testing API Endpoints
+
+We will be testing our API endpoints with `jest` npm package which allows us to test both `POST /` and `GET /` request.
+
+```sh
+$ npm test -- --watchAll
+```
+
+The output received passing the API endpoint test.
+
+![image](https://user-images.githubusercontent.com/79166987/218169698-b7af91c3-6d1a-4b12-9d6e-124b119ae034.png)
 
 
 ## Built with
