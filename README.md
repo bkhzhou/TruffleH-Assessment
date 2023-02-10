@@ -27,21 +27,33 @@ Utilizing [Postman](https://www.postman.com/) or any API platform, you will be a
 localhost:3000
 ```
 
-To add patients with the API, we would include `/items/add` into POST request and inputting parameter queries in this case name, address, hospital, service, and amount.
+To add patients with the API, we would include `/items` into POST request and inserting into its body
 ```
-localhost:3000/items/add
+localhost:3000/items
 ```
-![image](https://user-images.githubusercontent.com/79166987/217970322-57a8df57-f87e-4653-8abb-0378773dd43f.png)
+```
+{
+    "name" : "Jane Specs",
+    "address" : "1 Palace Street",
+    "hospital" : "Royal Hospital",
+    "service" : "01-20-2022",
+    "amount" : 500
+}
+```
+
+
+![image](https://user-images.githubusercontent.com/79166987/218017157-0584540a-9970-4a66-883c-8e450667565e.png)
+
 
 After a successful input, we've added a patient into our variable.
 
-![image](https://user-images.githubusercontent.com/79166987/217970348-c34c9025-a340-4d40-8694-0116aba1081d.png)
+![image](https://user-images.githubusercontent.com/79166987/218016671-9c6200f2-3244-4388-b9d6-c4e360976580.png)
 
 Retreiving our data we would create a request with GET and use 
 ```
 localhost:3000/items
 ```
-![image](https://user-images.githubusercontent.com/79166987/217970424-a22ec3dd-c562-4dbd-a29d-92566fbd1db3.png)
+![image](https://user-images.githubusercontent.com/79166987/218016843-2837dc90-07de-4af6-915f-a051925ca9ba.png)
 
 
 
