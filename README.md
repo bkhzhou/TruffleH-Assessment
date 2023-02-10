@@ -70,7 +70,7 @@ $ npm test -- --watchAll
 
 The output received passing the API endpoint test.
 
-![image](https://user-images.githubusercontent.com/79166987/218169698-b7af91c3-6d1a-4b12-9d6e-124b119ae034.png)
+![image](https://user-images.githubusercontent.com/79166987/218179306-56f58ce0-9f88-41a5-8c35-2feb96456852.png)
 
 
 ## Built with
