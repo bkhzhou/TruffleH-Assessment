@@ -16,7 +16,7 @@ $ npm install nodemon --save
 ```
 $ nodemon app.js
 ```
-or alteratively if you did not install nodemon.
+or alternatively if you did not install nodemon.
 ```
 $ node app.js
 ```
