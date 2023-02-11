@@ -3,16 +3,17 @@ const router = express.Router();
 
 let items = [];
 
-router.post('/add', (req, res) => {
+router.post('/', (req, res) => {
     const patient = {
-        name: req.query.name,
-        address: req.query.address,
-        hospital: req.query.hospital,
-        service: req.query.service,
-        amount: req.query.amount
+        name: req.body.name,
+        address: req.body.address,
+        hospital: req.body.hospital,
+        service: req.body.service,
+        amount: req.body.amount
     }
     items.push(patient)
-    res.send('Patient added')
+    console.log(req.body)
+    res.send(req.body)
 });
 
 router.get('/', (req, res) => {
